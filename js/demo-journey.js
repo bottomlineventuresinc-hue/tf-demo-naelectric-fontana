@@ -57,7 +57,7 @@
       apply: function () {
         if (heroLede) {
           heroLede.textContent =
-            'Residential and commercial electrical and panel upgrades. Across Fontana and the Inland Empire. Noelio looks at the job first and puts the price in writing.';
+            'Residential and commercial electrical and panel upgrades in Fontana. Noelio looks at the job first and puts the price in writing.';
         }
       }
     },
