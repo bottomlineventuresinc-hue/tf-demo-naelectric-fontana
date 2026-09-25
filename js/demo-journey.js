@@ -57,7 +57,7 @@
       apply: function () {
         if (heroLede) {
           heroLede.textContent =
-            'Residential and commercial electrical, panel upgrades, and wiring across Fontana and the Inland Empire. You get a fixed itemised quote before we start, Noelio as your named lead on site, and a twelve-month workmanship guarantee when we leave.';
+            'Residential and commercial electrical and panel upgrades. Across Fontana and the Inland Empire. Noelio looks at the job first and puts the price in writing.';
         }
       }
     },
@@ -65,7 +65,7 @@
       id: 'h1',
       apply: function () {
         if (heroH) {
-          heroH.innerHTML = 'Panel work and wiring,<br>quoted <em>before</em> we start.';
+          heroH.innerHTML = 'Fontana electrical<br>for homes and shops,<br>priced <em>first.</em>';
         }
       }
     },
@@ -73,7 +73,7 @@
       id: 'service',
       apply: function () {
         if (serviceFirst) {
-          serviceFirst.textContent = 'Residential electrical (written programme)';
+          serviceFirst.textContent = 'Panel upgrades (written price)';
         }
       }
     }
@@ -87,7 +87,7 @@
     if (mode === 'updated') {
       barSub.textContent = 'Draft for Noelio at N A Electric. Claim it, preview the rest of the journey, or request a change.';
     } else {
-      barSub.textContent = 'Draft for Noelio Aguilar-Garcia at N A Electric. Claim it, preview the rest of the journey, or request a change.';
+      barSub.textContent = 'Draft for Noelio at N A Electric. Claim it, preview the rest of the journey, or request a change.';
     }
   }
 
